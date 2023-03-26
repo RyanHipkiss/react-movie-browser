@@ -2,7 +2,7 @@ const fetcher = (url: string, params: object): Promise<any> => fetch(url, params
     if (!res.ok) {
         throw new Error('Something went wrong')
     }
-
+    
     return res.json()
 })
 
