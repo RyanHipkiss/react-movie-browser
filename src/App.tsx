@@ -1,10 +1,11 @@
 import './App.css'
-import useMovies from './hooks/useMovies'
+import Login from './components/Login'
 
 function App() {
-  const { movies, moviesError } = useMovies()
   return (
-    <h1>Hello</h1>
+    <div className='App'>
+      <Login />
+    </div>
   )
 }
 
